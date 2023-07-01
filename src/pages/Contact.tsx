@@ -18,7 +18,7 @@ export const Contact = () => {
         <input type="text" className="form-control" name="email" id="email" required />
       </div>
       <label className="form-label"> Message </label>
-      <textarea  className="form-control" id="message" name="message" rows="8" columns="50" required />
+      <textarea  className="form-control" id="message" name="message" rows={8} required />
       <input type="hidden" name="_next" value="https://reneemason.tech" />
       <input type="hidden" name="_autoresponse" value="Thank you for contacting me, I'll be in touch shortly. Renee"></input>
       <button className="btn btn-primary" type="submit">Send</button>

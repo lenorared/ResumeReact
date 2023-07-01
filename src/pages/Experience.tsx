@@ -104,28 +104,17 @@ const Experience = () => {
     </ul>
     </div>
     </div>
-   {/* <div className="job">  
-    <div className="jobTitle">
-        <span>Hardt’s Music - Winona, MN  <br />  Piano Teacher  </span> 
-        <span >  2001 - 2003  </span>  <br />
-    </div>
-    <ul>                                                                                                            
-        <li>	Taught weekly piano children and adults  </li>
-        <li>	Instructed students in reading treble and bass clef notes, music theory, key signatures, rhythms and scales </li>
-        <li>	Organized student recitals in local historic mansion   </li>
-    </ul>
-  </div> */}
 
 </div> 
   )
 }
 
-const JobTitle = () => {
+{/* const JobTitle = () => {
   return (
     <div className="jobTitle">
         <span> hi job title </span>
     </div>
   )
-}
+} */}
 
 export default Experience

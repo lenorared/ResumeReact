@@ -22,8 +22,7 @@ const Navbar = () => {
 
 export default Navbar
 
-function CustomLink( {to, ...props }) {
-  // const path = window.location.pathname
+function CustomLink( {to, ...props }: any) {
   const resolvedPath = useResolvedPath(to) 
   const isActive = useMatch( {path: resolvedPath.pathname, end: true})
 
