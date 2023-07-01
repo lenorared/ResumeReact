@@ -4,24 +4,23 @@ import './Contact.css'
 
 export const Contact = () => {
   return (
-    <form action="https://www.formsubmit.co/rmmason@gmail.com" method="POST" className="mb-3">
-      <div className="mb-3">
-        <label className="form-label" htmlFor="fromName"> Name </label>
-        <input type="text" className="form-control" name="fromName" id="fromName" required />
-      </div>
-      <div className="mb-3">
-        <label className="form-label" htmlFor="subject"> Subject </label>
-        <input type="text" className="form-control" name="_subject" id="subject" required value="the subject" />
-      </div>
-      <div className="mb-3"> 
-        <label className="form-label" htmlFor="email"> Email </label>
-        <input type="text" className="form-control" name="email" id="email" required />
-      </div>
-      <label className="form-label"> Message </label>
-      <textarea  className="form-control" id="message" name="message" rows={8} required />
-      <input type="hidden" name="_next" value="https://reneemason.tech" />
-      <input type="hidden" name="_autoresponse" value="Thank you for contacting me, I'll be in touch shortly. Renee"></input>
-      <button className="btn btn-primary" type="submit">Send</button>
-    </form>
+
+
+<form target="_blank" action="https://formsubmit.co/rmmason@gmail.com" method="POST">
+<div className="form-group">
+  <div className="form-row">
+    <div className="col">
+      <input type="text" name="name" className="form-control" placeholder="Full Name" required />
+    </div>
+    <div className="col">
+      <input type="email" name="email" className="form-control" placeholder="Email Address" required />
+    </div>
+  </div>
+</div>
+<div className="form-group">
+  <textarea placeholder="Your Message" className="form-control" name="message" rows={10} required></textarea>
+</div>
+<button type="submit" className="btn btn-lg btn-dark btn-block">Submit Form</button>
+</form>
   )
 }

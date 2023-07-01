@@ -24,8 +24,7 @@ body {
     font-family: 'Sail';
     font-size: 3.2rem !important;
     line-height: .6;
-    animation: slideIn 5s forwards; 
-    -webkit-transform: translateX(-100%);
+    /* animation: fadeIn 5s; */
 }
 
 .portfolio-name {
@@ -71,12 +70,11 @@ body {
 }
 
 .nav li:hover {
-   /* background-color: #777; */
    border-bottom: 3px solid var(--darkpurple)
 }
 
 @keyframes fadeIn {
-  0% { opacity: 0; }
+  0% { opacity: 50%; }
   100% { opacity: 1; }
 }
 
