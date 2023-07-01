@@ -1,0 +1,12 @@
+.myProfile {
+    color: #111;
+    max-width: 680px;
+    margin: 0 auto;
+    text-align: left;
+    padding: 4rem 0;
+}
+
+.myProfile p {
+    font-size: 1.2rem;
+    line-height: 1.5;
+}

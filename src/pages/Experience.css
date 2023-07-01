@@ -1,0 +1,48 @@
+.container {
+    padding: 2rem !important;
+   /*  opacity: 95% !important; */
+}
+
+.profExp {
+    display: flex;
+}
+
+.column {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.job {
+    border-bottom: 2px var(--darkpurple) solid;
+    padding-bottom: 8rem;
+    padding-top: 3rem;
+}
+
+.job:last-of-type {
+    border-bottom: none;
+}
+
+.jobTitle {
+    display: flex;
+    font-weight: bold;
+    color: black;
+    margin-top: 20px;
+    text-align: left;
+    padding: 0rem 1.8rem;
+}
+
+.jobTitle span:nth-of-type(2) {
+    margin-left: auto;
+}
+
+.job ul {
+    width: 95%;
+    text-align: left;
+}
+
+li {
+    font-size: 16px;
+    line-height: 1.5;
+    font-size: 17px;
+}

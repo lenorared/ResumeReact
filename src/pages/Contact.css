@@ -1,0 +1,21 @@
+form {
+    width: 75%;
+    text-align: left;
+    margin: 0 auto;
+}
+
+label {
+    font-size: 1.1rem;
+}
+
+button {
+    margin-top: 2rem;
+    background-color: var(--darkpurple) !important;
+    border-color: var(--darkpurple) !important;
+    padding: .6rem 1.4rem !important;
+}
+
+button:hover {
+    color: var(--darkpurple) !important;
+    background-color: var(--lightpurple) !important;
+}
