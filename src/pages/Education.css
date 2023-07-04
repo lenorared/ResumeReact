@@ -1,6 +1,6 @@
 .eduFlex {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     font-size: 1.4rem;
 }
 
@@ -13,8 +13,8 @@
 }
 
 .eduItem:nth-of-type(2){
-    /* border-image: linear-gradient(to top, #181818, #eee, #181818) 1 100%; */
-    border-left: 4px solid var(--darkpurple);
+    /* border-image: linear-gradient(to top, #181818, #eee, #181818) 1 100%; 
+    border-left: 4px solid var(--darkpurple); */
     /* border-image: linear-gradient(to top, var(--darkpurple), #eee, var(--darkpurple)) 1 100%; */
     /* border-image: 
     linear-gradient(

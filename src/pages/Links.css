@@ -1,0 +1,21 @@
+.linkFlex {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    padding: 2.2rem 0;
+}
+
+.linkDiv {
+    display: flex;
+    flex-direction: column;   
+}
+
+.linkDiv:nth-of-type(2){
+  margin-top: 3rem;
+}
+
+.linkDiv a {
+    color: #222; 
+    font-size: 1.6rem;
+    line-height: 3;
+}

@@ -2,7 +2,6 @@ import './Education.css'
 
 const Education = () => {
   return (
-    <>
     <div className="eduFlex"> 
         <div className="eduItem"> 
             <p> <span> Masters of Business Administration </span> <br />
@@ -15,10 +14,8 @@ const Education = () => {
             Bachelor of Science <br />
             Winona State University. Winona, MN <br />
             May 2003  </p>
-            </div> 
-        </div>
-        </>
-        
+         </div> 
+    </div>
   )
 }
 
