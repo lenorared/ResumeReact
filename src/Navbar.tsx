@@ -13,8 +13,8 @@ const Navbar = () => {
     <ul>
       <CustomLink to="/experience"> Professional Experience </CustomLink>
       <CustomLink to="/education"> Education </CustomLink>
-      <CustomLink to="/contact"> Contact </CustomLink>
       <CustomLink to="/links"> Links </CustomLink>
+      <CustomLink to="/contact"> Contact </CustomLink>
     </ul>
     </nav>
   )

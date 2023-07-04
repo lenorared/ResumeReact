@@ -1,34 +1,8 @@
 import './Experience.css'
 
-/* interface JobDesc {
-    title: String;
-    company: String;
-    startDate: String;
-    endDate: String;
-} */
-
-// type z = JobDesc[];
-
-/* var JobDesc[] = [
-    {title: "Full Stack", company: "Chopra", startDate: "May 2022", endDate: "April 2023"},
-]
-
-interface Props {
-    myJobs: JobDesc[];
-}   */
-
-
-/* var myJobs2: JobDesc[] = [
-    {title: "Full Stack", company: "Chopra", startDate: "May 2022", endDate: "April 2023"},
-    {title: "Full Stack", company: "Paige", startDate: "December 2019", endDate: "May 2022"}
-] */
-
 const Experience = () => {
-   // const z = 2;
   return (
     <div className="profExp"> 
-    <div className="column"> 
-    {/* <h3>  PROFESSIONAL EXPERIENCE </h3> */}
     <div className="job">  
     <div className="jobTitle">
         <span> Full Stack Web Developer  <br />  Chopra Global  </span> 
@@ -66,8 +40,6 @@ const Experience = () => {
         <li>	Run Google Lighthouse Report and fix website issues, such as delete unused JavaScript code and improve mobile usability </li>
     </ul>
     </div>
-   </div>
-    <div className="column"> 
     <div className="job">  
     <div className="jobTitle">
         <span>  Analyst Programmer <br />  Mayo Clinic - Rochester, Minnesota   </span> 
@@ -87,7 +59,6 @@ const Experience = () => {
     </ul>
     </div>
 
-
     <div className="job">  
     <div className="jobTitle"> 
         <span> Staff Software Engineer <br /> IBM - Rochester, Minnesota  </span> 
@@ -103,18 +74,9 @@ const Experience = () => {
         <li>	For severity 1 or system down situation, worked with client 24x7 until problem solved  </li>
     </ul>
     </div>
-    </div>
 
 </div> 
   )
 }
-
-{/* const JobTitle = () => {
-  return (
-    <div className="jobTitle">
-        <span> hi job title </span>
-    </div>
-  )
-} */}
 
 export default Experience

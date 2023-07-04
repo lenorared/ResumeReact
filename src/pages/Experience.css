@@ -1,22 +1,10 @@
-.container {
-    padding: 2rem !important;
-   /*  opacity: 95% !important; */
-}
-
 .profExp {
-    display: flex;
-}
-
-.column {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
+   padding: 0 3rem;
 }
 
 .job {
     border-bottom: 2px var(--darkpurple) solid;
-    padding-bottom: 8rem;
-    padding-top: 3rem;
+    padding: 1rem 0 3rem 0;
 }
 
 .job:last-of-type {
@@ -39,6 +27,7 @@
 .job ul {
     width: 95%;
     text-align: left;
+    padding-top: 1rem;
 }
 
 li {

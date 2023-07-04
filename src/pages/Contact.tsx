@@ -5,7 +5,6 @@ import './Contact.css'
 export const Contact = () => {
   return (
     <> 
-  
     <form action="https://api.web3forms.com/submit" method="POST" >
     <h3 className="mb-3"> Send me an email </h3>
     <input type="hidden" name="access_key" value="9350e9f1-b735-4874-bdde-225b38fe87d0" />
@@ -28,9 +27,7 @@ export const Contact = () => {
     <div className="h-captcha" data-captcha="true"></div>
     <button type="submit">Send Email</button>
     </form>
-
     <script src="https://web3forms.com/client/script.js" async defer></script>
     </>
-
   )
 }

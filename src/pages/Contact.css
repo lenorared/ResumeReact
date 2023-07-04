@@ -14,6 +14,7 @@ button {
     background-color: var(--darkpurple) !important;
     border-color: var(--darkpurple) !important;
     padding: .6rem 1.4rem !important;
+    color: var(--lightpurple);
 }
 
 button:hover {

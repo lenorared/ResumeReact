@@ -16,8 +16,9 @@ body {
 }
 
 .container {
-  width: 1280px;
-  margin: 6rem auto;
+  /* max-width: 1280px !important; */
+  width: 1080px !important;
+  margin: 3rem auto 6rem;
   background-color: white;
   padding: 3rem 6rem;
   opacity: 75%;
