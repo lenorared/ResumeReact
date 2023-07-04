@@ -4,7 +4,7 @@
 }
 
 :root {
- --darkpurple: #5f4765;
+ --darkpurple: #6e1884; /*  5f4765  */
  --lightpurple: #f4f4f4;
 }
 
@@ -23,3 +23,8 @@ body {
   opacity: 75%;
   border: 3px groove var(--darkpurple)
 }  
+
+footer {
+  height: 12rem;
+  background-color: var(--darkpurple);
+}

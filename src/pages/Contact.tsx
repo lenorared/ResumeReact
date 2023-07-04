@@ -7,7 +7,7 @@ export const Contact = () => {
     <> 
   
     <form action="https://api.web3forms.com/submit" method="POST" >
-    <h3 className="mb-3"> Send me an email! </h3>
+    <h3 className="mb-3"> Send me an email </h3>
     <input type="hidden" name="access_key" value="9350e9f1-b735-4874-bdde-225b38fe87d0" />
     <div className="mb-3"> 
       <label htmlFor="name" className="form-label"> Name </label>

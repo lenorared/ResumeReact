@@ -4,6 +4,9 @@ const Profile = () => {
   return (
     <div className="myProfile"> 
     <p> 
+        Hello and thanks for visiting my online Resume! 
+    </p>
+    <p>
         I am a Full Stack Web Developer currently based in Los Angeles (mid-city/Fairfax area). 
         I have 9 years Software Development experience in a broad array of web technologies. 
         My roles ranged from requirements gathering, coding UIs from designer’s mockups, programming in frontend 
@@ -22,6 +25,7 @@ const Profile = () => {
     <p>
         I’m looking for a FullStack or Frontend role, either remote or hybrid in Los Angeles. Please be in touch if you think we’d be a good fit for each other.
     </p>
+    <p> Thank you, <br/> Renee Mason </p>
 </div> 
   )
 }

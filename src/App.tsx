@@ -12,7 +12,6 @@ function App() {
   return (
     <>
     <Navbar />
-    
     <div className="container"> 
       <Routes>
         <Route path="/" element={<Profile />} />
@@ -22,6 +21,7 @@ function App() {
         <Route path="/links" element={<Links />} />
       </Routes>
     </div>
+    <footer> </footer>
     </>
   )
 }
