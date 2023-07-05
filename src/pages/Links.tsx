@@ -12,6 +12,7 @@ const Links = () => {
         <p> Side Practice Projects: </p>
         <a target="_blank" href="https://game-hub-teal-nu.vercel.app/"> Video Game Hub (React with ChakraUI)  </a>
         <a target="_blank" href="https://reactform-lenorared.vercel.app/"> Expense Tracker (React with Bootstrap)  </a>
+        <a target="_blank" href="https://lenorared.github.io/grid/"> Resume - CSS Grid format </a>
         </div>
     </div>
   )
