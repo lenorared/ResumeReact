@@ -28,4 +28,22 @@ body {
 footer {
   height: 12rem;
   background-color: var(--darkpurple);
+  color: var(--lightpurple);
+  margin: auto 0;
+  padding-top: 1.2rem;
+  font-family:'Times New Roman', Times, serif;
+  font-size: 1.2rem;
+  display: flex; 
+  justify-content: center;
+  gap: 4.4rem;
+  align-items: center;
+}
+
+footer a {
+  color: var(--lightpurple);
+}
+
+footer a:visited {
+  text-decoration: none;
+  color: var(--lightpurple);
 }

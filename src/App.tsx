@@ -21,7 +21,11 @@ function App() {
         <Route path="/links" element={<Links />} />
       </Routes>
     </div>
-    <footer> </footer>
+    <footer> 
+      <p> Renee Mason, 2023 </p>
+      <p> <a href="mailto:rmmason@gmail.com"> rmmason@gmail.com </a> </p>
+      <p> Los Angeles, CA </p>
+    </footer>
     </>
   )
 }
