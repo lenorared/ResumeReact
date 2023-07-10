@@ -9,12 +9,14 @@ const Experience = () => {
         <span>  May 2022 – April 2023 </span>  <br />
     </div>
     <ul>
-        <li> Maintained and added new features to Chopra.com, Java Backend with JavaScript Front End, BrightSpot CMS </li>
-        <li> Developed custom JavaScript audio and video player to import meditation audio files from the app directly into web  </li>
-        <li> Implement new Single Signon for Chopra.com, using Auth0 JavaScript SDK </li>
-        <li> Changed Profile page to retrieve data from different Profiles system </li> 
-        <li> Developer a paywall CMS page that displayed products if purchased, else sent user to purchase page </li>
-        <li> Created new Brightspot CMS Components to meet marketing needs, text with images, promotions, accordions </li>
+        <li>  Developed custom hybrid audio and video player for Chopra.com that shared backend media files with the
+        Chopra app, generating new sales for meditation playlists on the website </li>
+        <li> Upgraded existing sign-on to use OAuth Single Sign-on for Chopra.com, using Auth0 JavaScript SDK,
+        changed user profile page to retrieve data from Auth0 using React components </li>
+        <li> Integrated the CMS with a Subscription service GraphQL API to create a paywall page which displayed
+        content if purchased, else directed user to a sales page to increase revenue </li>
+        <li> Created custom BrightSpot CMS Components from our designer’s Figma mockups using Java, JavaScript,
+        HTML and CSS, to meet marketing needs for Chopra.com </li>
     </ul>
     </div>
 
@@ -24,20 +26,21 @@ const Experience = () => {
         <span>  2019 – May 2022 </span>  <br />
     </div> 
     <ul>
-        <li>	Worked on a team of 3 developers for an E-commerce fashion website, www.paige.com, created with Angular 4, Typescript, HTML, CSS, JavaScript, Java, Node.js </li>
-        <li>	Integrated API calls to our database and hosting vendors BloomReach and Commerce Tools </li>
-        <li>	Collaborated with UX Designer to create pixel perfect UIs from her mockups </li>
-        <li>	Implemented CSS media queries or flexbox to create responsive UIs for mobile and tablet</li>
-        <li>	Developed and improved multiple website features such as Search Bar with suggestions and photos, shop related products, CSS animation, pop for email marketing </li>
-        <li>	Integrated our site with UPS APIs to get delivery date or in transit status, also to print shipping label </li>
-        <li>	Created custom Order History and Package tracking interface, integrated our site with UPS APIs to get delivery date or in transit status </li>
-        <li>	Created Holiday Gift Guide page, with reusable JavaScript objects for next season  </li>
-        <li>	Backend - Wrote custom Java nightly cron job to pull current inventory values from OMS into Commerce Tools so website has current supply numbers </li>
-        <li>	Backend - Developed and enhanced components in Java backend CMS for designer to use  </li>
-        <li>	Implemented and tested tags in Google Tag Manager, consumed by Google Analytics and other 3rd parties </li>
-        <li>	Perform code deploys with Jenkins and Rundeck, Git change management and pull requests </li>
-        <li>	Wrote Mandrill (related to Mailchimp) transactional emails and Listrak mass email </li>
-        <li>	Run Google Lighthouse Report and fix website issues, such as delete unused JavaScript code and improve mobile usability </li>
+        <li> Created new Order History UI on paige.com, integrated with our Order Management API (Commerce
+        Tools) to display order status received or shipped, used UPS API to display transit status or delivery date </li> 
+        <li> Developed new Returns Interface, integrated with our OMS to start the return and used UPS shipping API to
+        create a printable mailing label </li> 
+        <li> Enhanced existing search bar to listen to user input, then call Product API and displayed results of suggested
+        search terms and product images below the search bar, to increase conversion </li> 
+        <li> Built a Shop the Look component for product page, which displayed a carousel of related items </li> 
+        <li> Created Holiday Gift Guide page, so that on category button click, it changed hero image and product list 
+        API parameter, with reusable JavaScript class for next season </li> 
+        <li> Implemented and debugged tags in Google Tag Manager, also used Google Analytics and Google 
+        Lighthouse reports to find and fix website issues </li> 
+        <li> Wrote Mandrill (related to Mailchimp) transactional emails to send customers retail sales receipts, online
+        order received and order shipped emails </li> 
+        <li> Developed responsive page layouts for tablet and mobile with media queries or CSS flexbox </li> 
+        <li> Co-wrote and scheduled nightly Java cron job to calculate new inventory numbers available for website </li> 
     </ul>
     </div>
     <div className="job">  
@@ -46,16 +49,14 @@ const Experience = () => {
         <span> 2011 – 2019 </span>  <br />
     </div>
     <ul>                       				
-        <li>	Worked on an agile team of 5 full stack web developers in Mayo Clinic’s for-profit division </li>
-        <li>	Used C#, .NET, Angular 1.5, JavaScript, jQuery </li>
-        <li>	Primary developer for internal angular web application to track product sales and clients </li>
-        <li>	Trained internal users and operations managers how to use applications, demonstrated new features </li> 
-        <li>	Was the informal go-to Developer for user questions and concerns, trained new team members </li>
-        <li>	Contributing developer for Real Time Content Delivery, external facing APIs that deliver Mayo’s proprietary medical information to external clients </li>
-        <li>	Maintained user interface for Ask Mayo Clinic Online, an algorithm driven medical diagnosis web application </li>
-        <li>	Participate in regular code review meetings with other developers to review best practices  </li>
-        <li>	Met weekly with PhD researchers and users to gather requirements and communicate progress </li>
-        <li>	Developed user interface for web application to collect feedback from Breast Cancer survivors </li>
+       <li> Developed web application to enter and save heart surgery data using HTML, jQuery, JavaScript and SASS
+        DB. It was used to certify Mayo Clinic for insurance and conduct research studies </li>
+        <li> Created user interface for web application to collect feedback from breast cancer survivors </li>
+        <li> Contributing developer for an external facing search API for medical information, written in C# .NET </li>
+        <li> Created SSL Certificates and API keys to store in AWS, helped users connect and use our API </li>
+        <li> Developed internal Angular web app to track API sales and clients </li>
+        <li> Contributing developer to create new .NET PC app for orthopedic surgery database, in C# and Linq </li> 
+        <li> Met with PhD researchers and users to gather requirements, communicate progress and demo new features </li>
     </ul>
     </div>
 
@@ -65,13 +66,18 @@ const Experience = () => {
         <span> 2003 - 2010 </span>  <br />
     </div>
     <ul>   
-        <li>    Post Sales Level 2 Technical Support for DB2 ans AS/400 server performance </li>                                                      
-        <li>	Supported both domestic and international clients in live call center or electronically </li>
-        <li>	Helped customers find bug fixes or in extreme cases would log on remotely and patch their server </li>
-        <li>	Reviewed communications trace to isolate if bottleneck in client, server, or network </li>
-        <li>	Assembled environment to recreate code defects for the Development team to fix </li>
-        <li>	Prioritized schedule based on various clients’ needs and problem severity level </li>
-        <li>	For severity 1 or system down situation, worked with client 24x7 until problem solved  </li>
+       <li> Provided technical support to domestic and international IBM clients in live call center for iSeries Database
+        and server performance issues (DB2 for AS/400) </li>
+        <li> Assisted clients with database locking and commitment control issues, worst case if a rollback was too big
+        and server became unusable, would log on and patch the system to cancel it </li>
+        <li> Helped clients take Database Monitors and System Performance tools, analyzed the results to see where
+        slowdown was happening. It could be at a DB level and customer could create a new SQL Index, or at
+        server level and customer may have to replace a disk, add more CPU or schedule jobs to run at separate
+        times </li>
+        <li> In the case of IBM code defect, assembled recreate environment for the Development team to fix </li>
+        <li> helped users “undelete” records in a file by removing journaled changes (only worked if customer kept
+        separate journal objects) </li>
+        <li> For severity 1 or system down situation, worked with client 24x7 until problem solved </li>
     </ul>
     </div>
 
